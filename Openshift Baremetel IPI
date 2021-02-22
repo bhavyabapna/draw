@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-22T11:12:04.684Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="LxqZU3q5E-MYBcIZMjUL" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-22T11:13:49.365Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="19Xsp00Zt8E7KgGHlO1J" version="14.4.2" type="github">
   <diagram id="x2r3bSdLvar-ujUY43Yj" name="Page-1">
     <mxGraphModel dx="1200" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -100,8 +100,24 @@
         <mxCell id="3YXFRZ2BikQdawuPV4M6-24" value="Worker&lt;br&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=#82b366;fillColor=#d5e8d4;shape=mxgraph.azure.server_rack;" vertex="1" parent="1">
           <mxGeometry x="560" y="430" width="120" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="3YXFRZ2BikQdawuPV4M6-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.017;entryY=0.72;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3YXFRZ2BikQdawuPV4M6-25" target="3YXFRZ2BikQdawuPV4M6-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="110" />
+              <mxPoint x="710" y="356" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3YXFRZ2BikQdawuPV4M6-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3YXFRZ2BikQdawuPV4M6-25" target="3YXFRZ2BikQdawuPV4M6-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="110" />
+              <mxPoint x="710" y="455" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="3YXFRZ2BikQdawuPV4M6-25" value="Storage" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="590" y="80" width="60" height="60" as="geometry" />
+          <mxGeometry x="570" y="80" width="80" height="100" as="geometry" />
         </mxCell>
         <mxCell id="3YXFRZ2BikQdawuPV4M6-30" value="OCP Pull secret" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="10" y="430" width="100" height="20" as="geometry" />
