@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-02-22T11:13:49.365Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="19Xsp00Zt8E7KgGHlO1J" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-23T05:42:38.192Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="DRDedCf3Z_pMmgq_Tlsn" version="14.4.2" type="github">
   <diagram id="x2r3bSdLvar-ujUY43Yj" name="Page-1">
     <mxGraphModel dx="1200" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3YXFRZ2BikQdawuPV4M6-1" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="100" width="120" height="410" as="geometry" />
+          <mxGeometry x="110" y="100" width="120" height="420" as="geometry" />
         </mxCell>
         <mxCell id="3YXFRZ2BikQdawuPV4M6-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -57,7 +57,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="3YXFRZ2BikQdawuPV4M6-6" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/software-engineering-and-video-gaming/512/601_cd_disc_install_software_dvd-128.png" vertex="1" parent="1">
+        <mxCell id="3YXFRZ2BikQdawuPV4M6-6" value="Installer" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/software-engineering-and-video-gaming/512/601_cd_disc_install_software_dvd-128.png" vertex="1" parent="1">
           <mxGeometry x="135" y="420" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="3YXFRZ2BikQdawuPV4M6-11" value="Provisioner" style="line;strokeWidth=4;direction=south;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;" vertex="1" parent="1">
@@ -75,7 +75,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3YXFRZ2BikQdawuPV4M6-22" value="Master" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.server_rack;" vertex="1" parent="1">
-          <mxGeometry x="560" y="320" width="120" height="50" as="geometry" />
+          <mxGeometry x="560" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3YXFRZ2BikQdawuPV4M6-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3YXFRZ2BikQdawuPV4M6-23" target="3YXFRZ2BikQdawuPV4M6-21">
           <mxGeometry relative="1" as="geometry">
@@ -87,7 +87,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3YXFRZ2BikQdawuPV4M6-23" value="Bootstrap" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=#d6b656;fillColor=#fff2cc;shape=mxgraph.azure.server;" vertex="1" parent="1">
-          <mxGeometry x="560" y="250" width="120" height="15" as="geometry" />
+          <mxGeometry x="560" y="250" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3YXFRZ2BikQdawuPV4M6-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3YXFRZ2BikQdawuPV4M6-24" target="3YXFRZ2BikQdawuPV4M6-21">
           <mxGeometry relative="1" as="geometry">
@@ -98,21 +98,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3YXFRZ2BikQdawuPV4M6-24" value="Worker&lt;br&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=#82b366;fillColor=#d5e8d4;shape=mxgraph.azure.server_rack;" vertex="1" parent="1">
-          <mxGeometry x="560" y="430" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="3YXFRZ2BikQdawuPV4M6-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.017;entryY=0.72;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3YXFRZ2BikQdawuPV4M6-25" target="3YXFRZ2BikQdawuPV4M6-22">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="710" y="110" />
-              <mxPoint x="710" y="356" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry x="560" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3YXFRZ2BikQdawuPV4M6-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3YXFRZ2BikQdawuPV4M6-25" target="3YXFRZ2BikQdawuPV4M6-24">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="710" y="110" />
+              <mxPoint x="710" y="130" />
               <mxPoint x="710" y="455" />
+              <mxPoint x="680" y="455" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3YXFRZ2BikQdawuPV4M6-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3YXFRZ2BikQdawuPV4M6-25" target="3YXFRZ2BikQdawuPV4M6-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="130" />
+              <mxPoint x="710" y="340" />
             </Array>
           </mxGeometry>
         </mxCell>
